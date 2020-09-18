@@ -12,7 +12,7 @@ export default class Helper extends PureComponent {
     disabled: PropTypes.bool,
     baseColor: PropTypes.string,
     errorColor: PropTypes.string,
-
+    style: PropTypes.styles,
     focusAnimation: PropTypes.instanceOf(Animated.Value),
   };
 
