@@ -10,9 +10,6 @@ export default class Helper extends PureComponent {
     error: PropTypes.string,
 
     disabled: PropTypes.bool,
-
-    style: Text.propType,
-
     baseColor: PropTypes.string,
     errorColor: PropTypes.string,
 
